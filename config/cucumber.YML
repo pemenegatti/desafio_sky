@@ -1,0 +1,5 @@
+<% timestamp = Time.now.strftime("%Y%m%d_%H%M%S") %>
+
+# Type of testrun
+default: -p html_report
+html_report: -f pretty -f html --out=results/<%=timestamp%>_report.html

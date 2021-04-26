@@ -1,0 +1,5 @@
+# Blacklist
+.vscode/*
+screenshots/*
+results/*
+Gemfile.lock
